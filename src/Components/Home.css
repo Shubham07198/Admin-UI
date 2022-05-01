@@ -1,0 +1,126 @@
+
+/* ---------------------------top div of the page ----------------------- */
+/* Get all user heading  */
+#get-users {
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#adminImg{
+    width: 40px;
+    height: 40px;
+}
+
+.container{
+    margin-top: 3rem;
+    /* height: 100vh; */
+}
+
+#heading{
+    font-size: 40px;
+    font-family: monospace;
+}
+
+/* fetch button style  */
+#fetch {
+    font-size: medium;
+    margin-top: 10px;
+    padding: 10px 5px;
+    display: inline-block;
+}
+h1 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+/* button styles  */
+.dlt-btn{
+    background: transparent;
+    width: 20%;
+    color:  #2f3542;
+    border-radius: .5rem;
+    border:1px solid white;
+    height: 2rem;
+    transition: all .5s;
+}
+
+/* hover on button  */
+.dlt-btn:hover{
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);   
+    border:1px solid rebeccapurple;
+    color: #2f3542;
+    
+}
+
+
+
+.search-box{
+    width: 100%;
+    padding:8px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.search-box-container{
+    display: flex;
+    /* width: 90%; */
+    align-items: center;
+    vertical-align: middle;
+    max-width: 75%;
+    /* height: 5vh; */
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #2f3542;
+    padding: 4px 8px;
+    
+}
+
+.search-icon{
+    height: 40;
+    width: 1000;
+}
+#table{
+    width: 90%;
+    margin: auto;
+   
+}
+
+
+@media only screen and (max-width:850px){
+    #table{
+        width: 96%;
+    }
+    #heading{
+        font-size: 30px;
+    }
+    #adminImg{
+        width: 30px;
+        height: 30px;
+    }
+    .search-box{
+        margin:4px 10px;
+        font-size: 0.8rem;
+    }
+    .search-box-container{
+        width: 85%;
+  }
+}
+
+
+@media (max-width:566px){
+    
+    #heading{
+        font-size: 25px;
+    }
+    #adminImg{
+        width: 25px;
+        height: 25px;
+    }
+}
